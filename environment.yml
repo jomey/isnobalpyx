@@ -1,0 +1,10 @@
+name: isnobalpyx
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gcc
+  - gxx_linux-64
+  - cmake
+  - catch2
+
