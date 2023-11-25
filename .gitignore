@@ -1,0 +1,3 @@
+# CMake output
+bin/
+cmake-build-debug/
