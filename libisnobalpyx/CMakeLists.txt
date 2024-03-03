@@ -1,3 +1,3 @@
 add_library(libisnobalpyx
-        net_radiation.c net_radiation.h
+        physics/energy_balance/net_radiation.c physics/energy_balance/net_radiation.h
 )

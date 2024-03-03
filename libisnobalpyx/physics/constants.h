@@ -2,8 +2,8 @@
 // iSNOBAL-wide used constants
 //
 
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
+#ifndef PHYSICS_CONSTANTS_H
+#define PHYSICS_CONSTANTS_H
 
 /*
  *  Thermal emissivity of snow
@@ -15,4 +15,4 @@
  */
 #define STEF_BOLTZMANN 5.67032e-8
 
-#endif //CONSTANTS_H
+#endif //PHYSICS_CONSTANTS_H

@@ -5,7 +5,7 @@
 #include <catch2/matchers/catch_matchers_floating_point.hpp>
 
 extern "C" {
-  #include "../libisnobalpyx/net_radiation.h"
+  #include "../../../libisnobalpyx/physics/energy_balance/net_radiation.h"
 }
 
 TEST_CASE( "Calculating net radiation" ) {
