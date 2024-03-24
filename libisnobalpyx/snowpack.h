@@ -1,24 +1,15 @@
+#include "data/snowlayers.h"
+#include "data/flux.h"
+
 #ifndef SNOWPACK_H
 #define SNOWPACK_H
-
-struct TopLayer {
-  double temperature;
-  double height;
-};
-
-struct BottomLayer {
-  double height;
-};
-
-struct Energy {
-  double net_radiation;
-};
 
 class Snowpack {
 public:
   TopLayer top_layer;
   BottomLayer bottom_layer;
   Energy energy;
+  EnergyFlux energy_flux;
 
   Snowpack(TopLayer& top_layer, BottomLayer& bottom_layer);
 

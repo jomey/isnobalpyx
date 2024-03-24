@@ -12,6 +12,8 @@ Snowpack::Snowpack(
     BottomLayer& bottom_layer
     ):top_layer(top_layer),bottom_layer(bottom_layer) {
   energy = Energy();
+):top_layer(top_layer),bottom_layer(bottom_layer) {
+  energy_flux = EnergyFlux();
 }
 
 double Snowpack::height() const {
